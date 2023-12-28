@@ -704,7 +704,7 @@ Outbound.BlackholeSettings = class extends CommonClass {
     }
 };
 Outbound.DNSSettings = class extends CommonClass {
-    constructor(network='udp', address='1.1.1.1', port=53) {
+    constructor(network='udp', address='10.8.0.1', port=53) {
         super();
         this.network = network;
         this.address = address;
